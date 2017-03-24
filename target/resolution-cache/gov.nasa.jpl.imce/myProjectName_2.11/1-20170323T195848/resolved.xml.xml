@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="gov.nasa.jpl.imce"
+		module="myProjectName_2.11"
+		revision="1-20170323T195848"
+		status="integration"
+		publication="20170323125848"
+		e:build.date.utc="2017-03-23-19:58" e:artifact.kind="briansart"
+	>
+		<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html" />
+		<description homepage="https://github.com/JPL-IMCE/myProjectName">
+		Sample description.
+		</description>
+	</info>
+	<configurations>
+		<conf name="universal" visibility="public" description=""/>
+		<conf name="universal-docs" visibility="public" description=""/>
+		<conf name="universal-src" visibility="public" description=""/>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="myProjectName_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="myProjectName_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="myProjectName_2.11" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		<artifact name="myProjectName_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="myProjectName_2.11" type="src" ext="jar" conf="sources" e:classifier="tests-sources"/>
+		<artifact name="myProjectName_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="myProjectName_2.11" type="doc" ext="jar" conf="docs" e:classifier="tests-javadoc"/>
+		<artifact name="myProjectName_2.11" type="zip" ext="zip" conf="universal,universal-docs,universal-src,compile,runtime,test,provided,optional,sources,docs,pom" e:classifier="resource"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="com.artima.supersafe" name="supersafe_2.11.8" rev="1.1.2" conf="plugin->default(compile)"/>
+		<dependency org="org.wartremover" name="wartremover_2.11" rev="1.1.0" conf="plugin->default(compile)"/>
+		<dependency org="com.sksamuel.scapegoat" name="scalac-scapegoat-plugin_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+	</dependencies>
+</ivy-module>

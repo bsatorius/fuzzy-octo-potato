@@ -1,0 +1,133 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/satorius/myprojectname/}myProjectName...[0m
+[0m[[0mdebug[0m] [0m:: building artificial module descriptors from gov.nasa.jpl.imce#myProjectName_2.11;1-20170323T202546[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: com.artima.supersafe#supersafe_2.11.8;1.1.2 {plugin=[default(compile)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.wartremover#wartremover_2.11;1.1.0 {plugin=[default(compile)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: com.sksamuel.scapegoat#scalac-scapegoat-plugin_2.11;1.0.0 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.scoverage#scalac-scoverage-runtime_2.11;1.1.1 {provided=[default(compile)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.scoverage#scalac-scoverage-plugin_2.11;1.1.1 {provided=[default(compile)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.11.8_temp-resolve-534fc4db3abd9dc387803b4487361ed7a71f4c9c/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.11.8_temp-resolve-7095ff45eb467b807465e7d1860a9096cd6fa757/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/com.artima.supersafe/supersafe_2.11.8/1.1.2_temp-resolve-e79025107fee22f543f0b124307e48c6eba8b867/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/org.wartremover/wartremover_2.11/1.1.0_temp-resolve-191bce68b4fc140c763118b4b3f3ab11d4e7df71/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/com.sksamuel.scapegoat/scalac-scapegoat-plugin_2.11/1.0.0_temp-resolve-cb9b978abaa51f74239b6f360432954a8a17e51c/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scoverage/scalac-scoverage-runtime_2.11/1.1.1_temp-resolve-8c7367231fa732026047b36f3612d5ef11d3bf99/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scoverage/scalac-scoverage-plugin_2.11/1.1.1_temp-resolve-768dc2a32c059d981129fe658ae6c5f778d2daad/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0m:: merging update reports[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: universal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: universal-docs: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: universal-src: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: compile: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scaldi:scaldi_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile: org.scaldi:scaldi_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: runtime: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scaldi:scaldi_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime: org.scaldi:scaldi_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: test: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scaldi:scaldi_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict test: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test: org.scaldi:scaldi_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: no conflict test: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: provided: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: org.scoverage:scalac-scoverage-runtime_2.11, org.scoverage:scalac-scoverage-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict provided: org.scoverage:scalac-scoverage-runtime_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict provided: org.scoverage:scalac-scoverage-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: optional: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: compile-internal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scoverage:scalac-scoverage-runtime_2.11, org.scoverage:scalac-scoverage-plugin_2.11, org.scaldi:scaldi_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: org.scoverage:scalac-scoverage-runtime_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: org.scoverage:scalac-scoverage-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: org.scaldi:scaldi_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: runtime-internal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scaldi:scaldi_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime-internal: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime-internal: org.scaldi:scaldi_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime-internal: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime-internal: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime-internal: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: test-internal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scoverage:scalac-scoverage-runtime_2.11, org.scoverage:scalac-scoverage-plugin_2.11, org.scaldi:scaldi_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: org.scoverage:scalac-scoverage-runtime_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: org.scoverage:scalac-scoverage-plugin_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: org.scaldi:scaldi_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: plugin: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.artima.supersafe:supersafe_2.11.8, org.wartremover:wartremover_2.11, org.scala-lang:scala-compiler, org.scala-lang.modules:scala-parser-combinators_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict plugin: com.artima.supersafe:supersafe_2.11.8[0m
+[0m[[0mdebug[0m] [0m:: no conflict plugin: org.wartremover:wartremover_2.11[0m
+[0m[[0mdebug[0m] [0m:: merging module reports for plugin: org.scala-lang:scala-compiler[0m
+[0m[[0mdebug[0m] [0m::: resolving conflict in plugin:org.scala-lang:scala-compiler (org.scala-lang:scala-compiler:2.11.8, org.scala-lang:scala-compiler:2.11.7)[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang:scala-compiler:2.11.8[0m
+[0m[[0mdebug[0m] [0m::: evicted org.scala-lang:scala-compiler:2.11.7[0m
+[0m[[0mdebug[0m] [0m:::: transitively evicted plugin: org.scala-lang:scala-reflect:2.11.7 ()[0m
+[0m[[0mdebug[0m] [0m:::: transitively evicted plugin: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4[0m
+[0m[[0mdebug[0m] [0m:::: transitively evicted plugin: org.scala-lang.modules:scala-xml_2.11:1.0.4[0m
+[0m[[0mdebug[0m] [0m:: merging module reports for plugin: org.scala-lang.modules:scala-parser-combinators_2.11[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4[0m
+[0m[[0mdebug[0m] [0m::: evicted [0m
+[0m[[0mdebug[0m] [0m:: merging module reports for plugin: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang.modules:scala-xml_2.11:1.0.4[0m
+[0m[[0mdebug[0m] [0m::: evicted [0m
+[0m[[0mdebug[0m] [0m:: merging module reports for plugin: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang:scala-reflect:2.11.8 ()[0m
+[0m[[0mdebug[0m] [0m::: evicted org.scala-lang:scala-reflect:2.11.7 ()[0m
+[0m[[0mdebug[0m] [0m:: merging module reports for plugin: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: resolving conflict in plugin:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.8 (), org.scala-lang:scala-library:2.11.7 ())[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang:scala-library:2.11.8 ()[0m
+[0m[[0mdebug[0m] [0m::: evicted org.scala-lang:scala-library:2.11.7 ()[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: sources: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: docs: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: pom: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: scala-tool: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-parser-combinators_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang:scala-compiler[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: jline:jline[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang.modules:scala-parser-combinators_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: merging module reports for scala-tool: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang:scala-library:2.11.8 ()[0m
+[0m[[0mdebug[0m] [0m::: evicted [0m
+[0m[[0mdebug[0m] [0mignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>gov.nasa.jpl.imce</groupId>
+    <artifactId>myProjectName_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>Sample description.</description>
+    <url>https://github.com/JPL-IMCE/myProjectName</url>
+    <version>1-20170323T202546</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>myProjectName</name>
+    <inceptionYear>2016</inceptionYear>
+    <organization>
+        <name>JPL-IMCE</name>
+        <url>https://github.com/JPL-IMCE</url>
+    </organization>
+    <scm>
+        <url>https://github.jpl.nasa.gov/imce/gov.nasa.jpl.imce.ontologies.workflow</url>
+        <connection>scm:git@github.com/JPL-IMCE/myProjectName.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>sherzig</id>
+            <name>Sebastian J. Herzig</name>
+            <email>sebastian.j.herzig@jpl.nasa.gov</email>
+            <url>https://gateway.jpl.nasa.gov/personal/sherzig/default.aspx</url>
+        </developer>
+        <developer>
+            <id>rouquett</id>
+            <name>Nicolas F. Rouquette</name>
+            <email>nicolas.f.rouquette@jpl.nasa.gov</email>
+            <url>https://gateway.jpl.nasa.gov/personal/rouquett/default.aspx</url>
+        </developer>
+    </developers>
+    <properties>
+        <build.date.utc>2017-03-23-20:25</build.date.utc>
+        <artifact.kind>briansart</artifact.kind>
+        <git.branch> master </git.branch>
+        <git.commit> N/A </git.commit>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.sksamuel.scapegoat</groupId>
+            <artifactId>scalac-scapegoat-plugin_2.11</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scoverage</groupId>
+            <artifactId>scalac-scoverage-runtime_2.11</artifactId>
+            <version>1.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scoverage</groupId>
+            <artifactId>scalac-scoverage-plugin_2.11</artifactId>
+            <version>1.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

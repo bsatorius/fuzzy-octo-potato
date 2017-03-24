@@ -1,0 +1,139 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/satorius/myprojectname/target/scala-2.11/classes
+compile options:
+21 items
+00 -> -deprecation
+01 -> -encoding
+02 -> UTF-8
+03 -> -feature
+04 -> -language:existentials
+05 -> -language:higherKinds
+06 -> -language:implicitConversions
+07 -> -unchecked
+08 -> -Xfatal-warnings
+09 -> -Xlint
+10 -> -Yno-adapted-args
+11 -> -Ywarn-dead-code
+12 -> -Ywarn-numeric-widen
+13 -> -Ywarn-value-discard
+14 -> -Xfuture
+15 -> -Ywarn-unused-import
+16 -> -Yno-imports
+17 -> -Xplugin:/Users/satorius/.ivy2/cache/com.artima.supersafe/supersafe_2.11.8/jars/supersafe_2.11.8-1.1.2.jar
+18 -> -Xplugin:/Users/satorius/.ivy2/cache/org.wartremover/wartremover_2.11/jars/wartremover_2.11-1.1.0.jar
+19 -> -target:jvm-1.8
+20 -> -P:artima-supersafe:config-file:/Users/satorius/myprojectname/project/supersafe.cfg
+javac options:
+4 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+2 items
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> /Users/satorius/myprojectname/target/scala-2.11/classes/myProjectName/BuildInfo$.class
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> /Users/satorius/myprojectname/target/scala-2.11/classes/myProjectName/BuildInfo.class
+binary dependencies:
+2 items
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> /Users/satorius/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+2 items
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> myProjectName.BuildInfo
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> myProjectName.BuildInfo$
+used names:
+30 items
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> <init>
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> <repeated>
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Any
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Boolean
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> BuildInfo
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> IndexOutOfBoundsException
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Int
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Iterator
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Nothing
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Object
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Predef
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Product
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> ScalaRunTime
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> Serializable
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> String
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> StringOps
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> T
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> augmentString
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> buildDateUTC
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> format
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> myProjectName
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> name
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> package
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> runtime
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> sbtVersion
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> scala
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> scalaVersion
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> toString
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> typedProductIterator
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> version
+product stamps:
+2 items
+/Users/satorius/myprojectname/target/scala-2.11/classes/myProjectName/BuildInfo$.class -> lastModified(1490300750000)
+/Users/satorius/myprojectname/target/scala-2.11/classes/myProjectName/BuildInfo.class -> lastModified(1490300750000)
+source stamps:
+2 items
+/Users/satorius/myprojectname/src/main/scala/HelloWorld.scala -> hash(6a63ad3e5a27365dc9c8eff20bef0c5799556878)
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> hash(edae0c6b8820d23d3e786a368a9d08057875a964)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1481605174000)
+/Users/satorius/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/satorius/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Serializable
+internal apis:
+2 items
+/Users/satorius/myprojectname/src/main/scala/HelloWorld.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa/Mwdx3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdAA3L1VzZXJzL3NhdG9yaXVzL215cHJvamVjdG5hbWUvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFGpjrT5aJzZdycjv8gvvDFeZVWh4
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwjkpPmQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAfc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwOfRdQXQABm5vdGlmeXNxAH4ADLXgYKt0AARuYW1lc3EAfgAM4wgwVHQABHdhaXRzcQB+AAyNZmhqdAANJGFzSW5zdGFuY2VPZnNxAH4ADP0PEfd0AAxwcm9kdWN0QXJpdHlzcQB+AAx4Dhm0dAAGZXF1YWxzc3EAfgAM5O7m3nQADGFzSW5zdGFuY2VPZnNxAH4ADJ3qlC10AAxzeW5jaHJvbml6ZWRzcQB+AAwvW1dodAANJGlzSW5zdGFuY2VPZnNxAH4ADILLCfV0AAxidWlsZERhdGVVVENzcQB+AAwFHF1JdAAIY2FuRXF1YWxzcQB+AAy+dxlYdAAJQnVpbGRJbmZvc3EAfgAMdP6RPXQADXByb2R1Y3RQcmVmaXhzcQB+AAyFVa7rdAAMc2NhbGFWZXJzaW9uc3EAfgAMZt4vcnQACW5vdGlmeUFsbHNxAH4ADM0fCqx0AAxpc0luc3RhbmNlT2ZzcQB+AAy938ZKdAAHdmVyc2lvbnNxAH4ADEPIkR50AAI9PXNxAH4ADEiBi8d0AAVjbG9uZXNxAH4ADOpcEUl0AApzYnRWZXJzaW9uc3EAfgAMDJV+A3QABiRpbml0JHNxAH4ADN2kAtt0AAh0b1N0cmluZ3NxAH4ADPX1hUx0AAIhPXNxAH4ADF+je2R0AAhnZXRDbGFzc3NxAH4ADOvhJbV0AAJuZXNxAH4ADEUGDR50AAJlcXNxAH4ADBc3OCV0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyNCNbWdAACIyNzcQB+AAzoKcRKdAAIZmluYWxpemVzcQB+AAyo+8+cdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAw40XjodAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAXbXlQcm9qZWN0TmFtZS5CdWlsZEluZm91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AG1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AVUwACWluaGVyaXRlZHEAfgBVTAAHcGFyZW50c3EAfgBVeHEAfgByc3EAfgBtdXEAfgBQAAAAAHNxAH4AbXVxAH4AUAAAAABzcQB+AG11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHF0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AItzcQB+AH5xAH4AgXNxAH4AgnNxAH4AhXVxAH4AiAAAAANzcQB+AIp0AARqYXZhc3EAfgCKdAACaW9xAH4Aj3NxAH4AfnQAB1Byb2R1Y3RxAH4AhHNxAH4AfnQABkVxdWFsc3EAfgCEc3EAfgB+dAAGT2JqZWN0c3EAfgCCc3EAfgCFdXEAfgCIAAAAA3NxAH4AinEAfgCVc3EAfgCKdAAEbGFuZ3EAfgCPc3EAfgB+dAADQW55cQB+AIR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AA1teVByb2plY3ROYW1lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa/NjBRHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADcvVXNlcnMvc2F0b3JpdXMvbXlwcm9qZWN0bmFtZS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU7a4Ma4gg0j0+eGo2ip0IBXh1qWQ=
+external apis:
+0 items
+source infos:
+2 items
+/Users/satorius/myprojectname/src/main/scala/HelloWorld.scala -> 
+AAAAAAAAAAA=
+/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvzMHcd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANy9Vc2Vycy9zYXRvcml1cy9teXByb2plY3RuYW1lL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvzYwUR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANy9Vc2Vycy9zYXRvcml1cy9teXByb2plY3RuYW1lL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

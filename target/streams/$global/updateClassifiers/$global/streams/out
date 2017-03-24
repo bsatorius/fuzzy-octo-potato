@@ -1,0 +1,127 @@
+[debug] :: building artificial module descriptors from gov.nasa.jpl.imce#myProjectName$sources_2.11;1-20170323T195848
+[debug] ::: dd: dependency: org.scala-lang#scala-library;2.11.8 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-library:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.sksamuel.scapegoat#scalac-scapegoat-plugin_2.11;1.0.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: scalac-scapegoat-plugin_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-xml_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-library:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-parser-combinators_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.11.8 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[default, compile, runtime, optional, optional(default), master]} (artifacts: scala-compiler:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-xml_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scoverage#scalac-scoverage-runtime_2.11;1.1.1 {provided=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: scalac-scoverage-runtime_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.wartremover#wartremover_2.11;1.1.0 {plugin=[default, compile, runtime, default(compile), master]} (artifacts: wartremover_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scaldi#scaldi_2.11;0.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scaldi_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: jline#jline;2.12.1 {scala-tool=[compile, master(compile), compile(*), master]} (artifacts: jline:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-reflect:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scoverage#scalac-scoverage-plugin_2.11;1.1.1 {provided=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: scalac-scoverage-plugin_2.11:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-reflect;2.11.8 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-reflect:src:jar:{classifier=sources})
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.11.8_temp-resolve-b67efcd5145b7f1da75e90a0c0e6d0aba58c56b2/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/com.sksamuel.scapegoat/scalac-scapegoat-plugin_2.11/1.0.0_temp-resolve-a248db157342b114347683a87322404726305540/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang.modules/scala-xml_2.11/1.0.2_temp-resolve-a40cea4e202da539832502729d379ff9471ce41a/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.11.6_temp-resolve-31aabe5029817fb5b1fb0046518b474b47d5ad67/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4_temp-resolve-a44ae5d613cff344cf976d8d49d1e0691d72384a/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.11.8_temp-resolve-200741c41cab88e078572fb292df701a63f9d1ad/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang.modules/scala-xml_2.11/1.0.4_temp-resolve-1cac7a2fcb8b057dbf6b3ca7c6db4316c8a4944f/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scoverage/scalac-scoverage-runtime_2.11/1.1.1_temp-resolve-a21e91a03bdd11084671114670da4c6356e3f554/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.wartremover/wartremover_2.11/1.1.0_temp-resolve-850036ebf98800fadb99c3340bd8289bd40b5de2/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scaldi/scaldi_2.11/0.4_temp-resolve-775c99059be6950d73c4b542626461aea42df1a7/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/jline/jline/2.12.1_temp-resolve-59e4c1c45afd323b3dadfed8c8ecda7d715019e8/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-reflect/2.11.6_temp-resolve-32a5c4d4e97179009b78a08527c1133cf97f4f59/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scoverage/scalac-scoverage-plugin_2.11/1.1.1_temp-resolve-ed81bb236bcc36dc6b10036d57631cf12b3130bf/graphs/graph.json
+[debug] parsing /Users/satorius/.sbt/0.13/dependency/module/static/org.scala-lang/scala-reflect/2.11.8_temp-resolve-dd62b795d69419fbfe04c7212661d381b084f4d1/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: universal: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: universal-docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: universal-src: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-library, org.scaldi:scaldi_2.11, org.scala-lang:scala-reflect
+[debug] :: no conflict compile: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11
+[debug] :: no conflict compile: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict compile: org.scala-lang:scala-library
+[debug] :: no conflict compile: org.scaldi:scaldi_2.11
+[debug] :: no conflict compile: org.scala-lang:scala-reflect
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-library, org.scaldi:scaldi_2.11, org.scala-lang:scala-reflect
+[debug] :: no conflict runtime: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11
+[debug] :: no conflict runtime: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict runtime: org.scala-lang:scala-library
+[debug] :: no conflict runtime: org.scaldi:scaldi_2.11
+[debug] :: no conflict runtime: org.scala-lang:scala-reflect
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-library, org.scaldi:scaldi_2.11, org.scala-lang:scala-reflect
+[debug] :: no conflict test: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11
+[debug] :: no conflict test: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict test: org.scala-lang:scala-library
+[debug] :: no conflict test: org.scaldi:scaldi_2.11
+[debug] :: no conflict test: org.scala-lang:scala-reflect
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: org.scoverage:scalac-scoverage-runtime_2.11, org.scoverage:scalac-scoverage-plugin_2.11
+[debug] :: no conflict provided: org.scoverage:scalac-scoverage-runtime_2.11
+[debug] :: no conflict provided: org.scoverage:scalac-scoverage-plugin_2.11
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-library, org.scoverage:scalac-scoverage-runtime_2.11, org.scaldi:scaldi_2.11, org.scala-lang:scala-reflect, org.scoverage:scalac-scoverage-plugin_2.11
+[debug] :: no conflict compile-internal: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11
+[debug] :: no conflict compile-internal: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict compile-internal: org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: org.scoverage:scalac-scoverage-runtime_2.11
+[debug] :: no conflict compile-internal: org.scaldi:scaldi_2.11
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict compile-internal: org.scoverage:scalac-scoverage-plugin_2.11
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-library, org.scaldi:scaldi_2.11, org.scala-lang:scala-reflect
+[debug] :: no conflict runtime-internal: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11
+[debug] :: no conflict runtime-internal: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-library
+[debug] :: no conflict runtime-internal: org.scaldi:scaldi_2.11
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-reflect
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-library, org.scoverage:scalac-scoverage-runtime_2.11, org.scaldi:scaldi_2.11, org.scala-lang:scala-reflect, org.scoverage:scalac-scoverage-plugin_2.11
+[debug] :: no conflict test-internal: com.sksamuel.scapegoat:scalac-scapegoat-plugin_2.11
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict test-internal: org.scala-lang:scala-library
+[debug] :: no conflict test-internal: org.scoverage:scalac-scoverage-runtime_2.11
+[debug] :: no conflict test-internal: org.scaldi:scaldi_2.11
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict test-internal: org.scoverage:scalac-scoverage-plugin_2.11
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.scala-lang.modules:scala-parser-combinators_2.11, org.scala-lang:scala-compiler, org.scala-lang.modules:scala-xml_2.11, org.wartremover:wartremover_2.11, org.scala-lang:scala-reflect
+[debug] :: no conflict plugin: org.scala-lang:scala-library
+[debug] :: no conflict plugin: org.scala-lang.modules:scala-parser-combinators_2.11
+[debug] :: no conflict plugin: org.scala-lang:scala-compiler
+[debug] :: no conflict plugin: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict plugin: org.wartremover:wartremover_2.11
+[debug] :: no conflict plugin: org.scala-lang:scala-reflect
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.scala-lang.modules:scala-parser-combinators_2.11, org.scala-lang:scala-compiler, org.scala-lang.modules:scala-xml_2.11, jline:jline, org.scala-lang:scala-reflect
+[debug] :: no conflict scala-tool: org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-parser-combinators_2.11
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.11
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator

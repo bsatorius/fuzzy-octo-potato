@@ -1,0 +1,38 @@
+[0m[[0minfo[0m] [0mMain Scala API documentation to /Users/satorius/myprojectname/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	UTF-8[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-language:existentials[0m
+[0m[[0mdebug[0m] [0m	-language:higherKinds[0m
+[0m[[0mdebug[0m] [0m	-language:implicitConversions[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-Xfatal-warnings[0m
+[0m[[0mdebug[0m] [0m	-Xlint[0m
+[0m[[0mdebug[0m] [0m	-Yno-adapted-args[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-dead-code[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-numeric-widen[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-value-discard[0m
+[0m[[0mdebug[0m] [0m	-Xfuture[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-unused-import[0m
+[0m[[0mdebug[0m] [0m	-Yno-imports[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/satorius/.ivy2/cache/com.artima.supersafe/supersafe_2.11.8/jars/supersafe_2.11.8-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/satorius/.ivy2/cache/org.wartremover/wartremover_2.11/jars/wartremover_2.11-1.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	-diagrams[0m
+[0m[[0mdebug[0m] [0m	-doc-title[0m
+[0m[[0mdebug[0m] [0m	myProjectName[0m
+[0m[[0mdebug[0m] [0m	-doc-root-content[0m
+[0m[[0mdebug[0m] [0m	/Users/satorius/myprojectname/rootdoc.txt[0m
+[0m[[0mdebug[0m] [0m	-Xplugin-disable:artima-supersafe[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/satorius/myprojectname/target/scala-2.11/api[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes:/Users/satorius/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/satorius/.ivy2/cache/com.sksamuel.scapegoat/scalac-scapegoat-plugin_2.11/jars/scalac-scapegoat-plugin_2.11-1.0.0.jar:/Users/satorius/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar:/Users/satorius/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.1.1.jar:/Users/satorius/.ivy2/cache/org.scaldi/scaldi_2.11/jars/scaldi_2.11-0.4.jar:/Users/satorius/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/Users/satorius/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/satorius/myprojectname/src/main/scala/HelloWorld.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/satorius/myprojectname/target/scala-2.11/src_managed/main/sbt-buildinfo/BuildInfo.scala[0m
+[0m[[0minfo[0m] [0mDisabling plugin artima-supersafe[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

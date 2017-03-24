@@ -1,0 +1,1 @@
+Index.PACKAGES = {"myProjectName" : [{"object" : "myProjectName\/BuildInfo$.html", "name" : "myProjectName.BuildInfo"}]};
